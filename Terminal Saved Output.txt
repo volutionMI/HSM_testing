@@ -1,0 +1,40 @@
+Last login: Mon Oct  2 10:36:46 on ttys001
+You have mail.
+Volution:~ Volution$ cd /Applications/MAMP/htdocs/HSM_testing
+Volution:HSM_testing Volution$ echo "# HSM_testing" >> README.md
+Volution:HSM_testing Volution$ git init
+Reinitialized existing Git repository in /Applications/MAMP/htdocs/HSM_testing/.git/
+Volution:HSM_testing Volution$ git add README.md
+Volution:HSM_testing Volution$ git commit -m "first commit"
+[master (root-commit) 6ea1e6d] first commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+Volution:HSM_testing Volution$ git remote add origin https://github.com/volutionMI/HSM_testing.git
+fatal: remote origin already exists.
+Volution:HSM_testing Volution$ git push -u origin master
+Username: 
+Password: 
+error: The requested URL returned error: 403 while accessing https://github.com/volutionMI/HSM_testing.git/info/refs
+fatal: HTTP request failed
+Volution:HSM_testing Volution$ cd ...
+-bash: cd: ...: No such file or directory
+Volution:HSM_testing Volution$ cd ..
+Volution:htdocs Volution$ echo "# HSM_testing" >> README.md
+Volution:htdocs Volution$ git init
+Initialized empty Git repository in /Applications/MAMP/htdocs/.git/
+Volution:htdocs Volution$ git add README.md
+Volution:htdocs Volution$ git commit -m "first commit"
+[master (root-commit) 77b958d] first commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+Volution:htdocs Volution$ git remote add origin https://github.com/volutionMI/HSM_testing.git
+Volution:htdocs Volution$ git push -u origin master
+Username: 
+Password: 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 227 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/volutionMI/HSM_testing.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Volution:htdocs Volution$ 
