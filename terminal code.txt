@@ -1,0 +1,13 @@
+cd /Applications/MAMP/htdocs/HSM_testing
+
+
+echo "# HSM_testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/volutionMI/HSM_testing.git
+git push -u origin master
+
+volutionMI password git
+
+
