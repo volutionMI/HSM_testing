@@ -24,13 +24,13 @@ define('WP_AUTO_UPDATE_CORE', false);// This setting was defined by WordPress To
 define('DB_NAME', 'wordpress_b9');
 
 /** MySQL database username */
-define('DB_USER', 'wordpress_08');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'E8_XPcv75y');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:3306');
+define('DB_HOST', 'localhost:8888');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -78,6 +78,8 @@ $table_prefix = 'Ro7sd2_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+
+define('WP_ALLOW_REPAIR', true);
 
 /* That's all, stop editing! Happy blogging. */
 
