@@ -1,0 +1,401 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('fonts/DroidSans-webfont.eot');
+    src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-webfont.woff') format('woff'),
+         url('fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('fonts/DroidSans-Bold-webfont.eot');
+    src: url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-Bold-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Conv_ERASBD';
+	src: url('fonts/ERASBD.eot');
+	src: local('☺'), url('fonts/ERASBD.woff') format('woff'), url('fonts/ERASBD.ttf') format('truetype'), url('fonts/ERASBD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_ERASDEMI';
+	src: url('fonts/ERASDEMI.eot');
+	src: local('☺'), url('fonts/ERASDEMI.woff') format('woff'), url('fonts/ERASDEMI.ttf') format('truetype'), url('fonts/ERASDEMI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_ERASMD';
+	src: url('fonts/ERASMD.eot');
+	src: local('☺'), url('fonts/ERASMD.woff') format('woff'), url('fonts/ERASMD.ttf') format('truetype'), url('fonts/ERASMD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ERASLGHT';
+	src: url('fonts/ERASLGHT.eot');
+	src: local('☺'), url('fonts/ERASLGHT.woff') format('woff'), url('fonts/ERASLGHT.ttf') format('truetype'), url('fonts/ERASLGHT.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+a {text-decoration:underline;}
+.article {
+float:left;
+}
+
+sup {
+    top: -.4rem;
+    font-size: 45%;
+}
+a h5.education {
+    color: #00B2A9;
+}
+
+.conferences, a h5.conferences {
+    color: #84329B;
+}
+
+.card {
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: none;
+
+}
+.feature.card {background-color:#fff; border-radius: 0; margin-top: 0; border: #fff solid 7px;}
+
+.article.first_try:nth-child(2) .feature.card, .article.first_try:nth-child(8) .feature.card{
+border-left-color:#00B2A9;
+border-bottom-color: #00B2A9; }
+
+.article.first_try:nth-child(7) .feature.card {
+border-right-color:#84329B;
+border-bottom-color: #84329B; }
+.article.first_try:nth-child(3) .feature.card,.article.first_try:nth-child(5) .feature.card {
+border-right-color:#00B2A9;
+border-bottom-color: #00B2A9; }
+
+.article.first_try:nth-child(4) .feature.card, .article.first_try:nth-child(6) .feature.card {
+border-left-color:#C8102E;
+border-bottom-color: #C8102E; }
+
+.feature.card a {
+    text-decoration: none;
+}
+
+div#wrapper-footer {
+    background-color: #0033A0e2;
+    mix-blend-mode: multiply;
+}
+.card-header {
+    padding: 0 .5rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: none;
+    color: #00B2A9;
+}
+/*.education {color: #00B2A9;)
+}*/
+
+.publication {color: #C8102E;)
+}
+.feature.card h2 em.subhead {
+    font-size:.9rem;
+}
+.feature h2 {
+    font-size: 1.7rem;
+    font-weight: bolder;
+   /* height: 4.2rem;*/
+    line-height: 1.3;
+    vertical-align: middle;
+    /*display: table-cell;*/
+    text-align: center;
+    padding-top: 0rem;
+    letter-spacing: -.02rem;
+	font-family: 'Conv_ERASDEMI';
+	width: 100%;
+	color: #00B2A9;
+    margin-bottom: 0;
+}
+.feature.card img.wp-post-image {
+    border: 1px solid #000;
+    margin: .7rem 0;
+}
+#page-wrapper{ background-color: #0033a02e;}
+
+.article:first-child .feature.card {
+    background-color: #00000002;
+    border:none;
+}
+.article:first-child .feature.card .card-header {
+    background-color: #00000002;
+    border:none;
+}
+.article:first-child .feature.card > .card-header h2{
+    color:#000;
+}
+
+
+
+
+
+
+.feature.card .card-body {
+    flex: 1 1 auto;
+    padding: 0 .35rem;
+    text-align: center;
+height: 5rem;
+}
+.feature.card h5{font-size: .9rem;
+    font-weight: 400;
+    font-family: 'Conv_ERASMD', sans-serif;
+}
+
+.card-body p{
+    color: #000;
+    font-size: .8rem;
+} 
+i.fa.fa-home {
+    color: #fff;
+    font-size: 2rem;
+/*margin-top: -6px;*/
+
+}
+body {
+    font-family: 'droid_sansregular';
+}
+
+
+/*li#menu-item-273 {
+    font-size: 2rem;
+}*/
+
+#mega-menu-wrap-primary .mega-menu-toggle {background: none;}
+
+div#wrapper-navbar {
+   max-width: 100%;
+margin: auto;
+}
+.row.white-menu {
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.container.small-menu {
+    float: right;
+    max-width: 100%; 
+    font-size: .75rem;
+    background-color: #0033A0e6;
+    text-align: right;
+    height:40px;
+    
+}
+
+.container.logo-brand {
+    display: inline-block;
+    max-width: 100px;
+    
+   
+}
+aside#secondary {
+    vertical-align: middle;
+    padding-top: 15px;
+}
+  ul#menu-small li {
+    display: inline;
+    font-size: .6rem;
+}
+
+
+#menu-small li:after {
+    content: "|";
+    color: #fff;
+padding-left: .3rem;
+padding-right: .1rem;
+}
+#menu-small a, #main-menu a {
+    color: #fff;
+}
+
+#menu-small li:last-child:after {
+    display:none;}
+
+
+ul#main-menu {
+        width: 100%;
+    font-size: .7rem;
+    display: inline-flex;
+}
+#main-menu sup {
+    top: -.38rem;
+    font-size: 45%;
+}
+div#wpadminbar {
+    display: none;
+}
+.navbar {
+   
+    padding: 0rem 1rem;
+    background-color: #0033A0;
+}
+
+a.navbar-brand.custom-logo-link {
+    max-width: 100rem;
+    min-width: 60rem;
+}
+
+button.navbar-toggler {
+    float: right;
+}
+.entry-footer span {
+    padding-right: 10px;
+    display: none;
+}
+
+footer#colophon {
+    display: none;
+}
+.logo-brand {
+    max-width: 100px;
+    margin: auto;
+}
+
+.bloginfo {margin-top: 1rem;}
+.bloginfo h1 {
+    font-size: 1.5rem; color:#2b3b93;
+margin: 0;
+    font-family: 'Conv_ERASBD', sans-serif;
+        text-align:center;
+}
+.bloginfo p {
+    font-size: .9rem; color:#2b3b93; font-family: 'droid_sansbold', sans-serif;
+    text-align:center;
+}
+nav.container.navigation.post-navigation, #comments {
+    display: none;
+}
+/*get rid of the box-shadow around the indidividual li */
+#mega-menu-wrap-primary, #mega-menu-primary, #mega-menu-wrap-primary #mega-menu-primary {
+    box-shadow: none;
+    line-height: 1.;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, mega-block-title {
+text-transform: initial;}
+#mega-menu-wrap-primary #mega-menu-primary a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item{
+    box-shadow:none;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item{
+    box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666, /*top external shadow*/ inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+
+#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-372{
+background-color: #642F6C;}
+
+#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-373{
+background-color: #CB6015;}
+#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-374{
+background-color: #9D2235;}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item-375{
+background-color: #4F868E;}
+
+#main-menu a.nav-link {
+    padding: 0;
+}
+
+div#calendar_wrap {
+    font-size: .5rem;
+    float: right;
+}
+
+.widget_search label.assistive-text {
+    display: none;
+}
+
+#searchform .input-group {
+    position: relative;
+    display: flex;
+    width: 20%;
+}
+
+ul#menu-small {
+    float: right;
+}
+@media (min-width: 968px){
+	
+	ul#main-menu {
+    font-size: .8rem;
+}
+}
+@media (min-width: 768px){
+
+.logo-brand {
+    max-width: 100px;
+    margin: auto .9rem auto 2rem;}
+    /* margin: auto;}*/
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .75rem;
+    padding-left: .75rem; 
+    max-width: 100%;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+}
+.bloginfo h1 {
+ text-align:left;  
+}
+.bloginfo p {
+     text-align:left;
+}
+
+.feature.card {
+        margin-top:1.75rem;
+}
+.feature h2 {
+    font-size: .87rem;
+    /*height: 3rem;*/
+    line-height: 1.2;
+}
+#mega-menu-wrap-primary #mega-menu-primary ul.mega-sub-menu {box-shadow: none;}
+.card-header {
+    padding: 0 .2rem;}
+
+body{
+    background-image: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 100%;}
+
+
+    }
+}
+

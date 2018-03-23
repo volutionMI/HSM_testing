@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('fonts/DroidSans-webfont.eot');
+    src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-webfont.woff') format('woff'),
+         url('fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('fonts/DroidSans-Bold-webfont.eot');
+    src: url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-Bold-webfont.woff2') format('woff2'),
+         url('fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Conv_ERASBD';
+	src: url('fonts/ERASBD.eot');
+	src: local('☺'), url('fonts/ERASBD.woff') format('woff'), url('fonts/ERASBD.ttf') format('truetype'), url('fonts/ERASBD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_ERASDEMI';
+	src: url('fonts/ERASDEMI.eot');
+	src: local('☺'), url('fonts/ERASDEMI.woff') format('woff'), url('fonts/ERASDEMI.ttf') format('truetype'), url('fonts/ERASDEMI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_ERASMD';
+	src: url('fonts/ERASMD.eot');
+	src: local('☺'), url('fonts/ERASMD.woff') format('woff'), url('fonts/ERASMD.ttf') format('truetype'), url('fonts/ERASMD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ERASLGHT';
+	src: url('fonts/ERASLGHT.eot');
+	src: local('☺'), url('fonts/ERASLGHT.woff') format('woff'), url('fonts/ERASLGHT.ttf') format('truetype'), url('fonts/ERASLGHT.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    background-image:none;
+}
+
+
+.article {
+float:left;
+}
+
+sup {
+    top: -.4rem;
+    font-size: 45%;
+}
+a h5.education {
+    color: #00B2A9;
+}
+
+.conferences, a h5.conferences {
+    color: #84329B;
+}
+
+.card {
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: none;
+
+}
+.feature.card {background-color:#fff; border-radius: 0; margin-top: 0; border: #fff solid 5px;}
+
+.article.first_try:nth-child(2) .feature.card, .article.first_try:nth-child(8) .feature.card{
+border-left-color:#00B2A9;
+border-bottom-color: #00B2A9; }
+
+.article.first_try:nth-child(7) .feature.card {
+border-right-color:#84329B;
+border-bottom-color: #84329B; }
+.article.first_try:nth-child(3) .feature.card,.article.first_try:nth-child(5) .feature.card {
+border-right-color:#00B2A9;
+border-bottom-color: #00B2A9; }
+
+.article.first_try:nth-child(4) .feature.card, .article.first_try:nth-child(6) .feature.card {
+border-left-color:#C8102E;
+border-bottom-color: #C8102E; }
+
+.feature.card a {
+    text-decoration: none;
+}
+
+div#wrapper-footer {
+    background-color: #0033A0e2;
+    mix-blend-mode: multiply;
+}
+.card-header {
+    padding: 0 .5rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: none;
+    color: #00B2A9;
+}
+/*.education {color: #00B2A9;)
+}*/
+
+.publication {color: #C8102E;)
+}
+.feature.card h2 em.subhead {
+    font-size:.9rem;
+}
+.feature h2 {
+    font-size: 1.7rem;
+    font-weight: bolder;
+   /* height: 4.2rem;*/
+    line-height: 1.3;
+    vertical-align: middle;
+    /*display: table-cell;*/
+    text-align: center;
+    padding-top: 0rem;
+    letter-spacing: -.02rem;
+	font-family: 'Conv_ERASDEMI';
+	width: 100%;
+	color: #00B2A9;
+    margin-bottom: 0;
+}
+.feature.card img.wp-post-image {
+    border: 1px solid #000;
+    margin: .7rem 0;
+}
+#page-wrapper{ background-color: #0033a02e;}
+
+.article:first-child .feature.card {
+    background-color: #00000002;
+    border:none;
+}
+.article:first-child .feature.card .card-header {
+    background-color: #00000002;
+    border:none;
+}
+.article:first-child .feature.card > .card-header h2{
+    color:#000;
+}
+
+.article .feature.card {
+    border: 4px solid color: #fff;
+
+}
+
+
+
+
+.feature.card .card-body {
+    flex: 1 1 auto;
+    padding: 0 .35rem;
+    text-align: center;
+height: 5rem;
+}
+.feature.card h5{font-size: .9rem;
+    font-weight: 400;
+    font-family: 'Conv_ERASLGHT';
+}
+
+.card-body p{
+    color: #000;
+    font-size: .8rem;
+} 
+i.fa.fa-home {
+    color: #fff;
+    font-size: 2rem;
+margin-top: -6px;
+
+}
+body {
+    font-family: 'droid_sansregular';
+}
+
+
+/*li#menu-item-273 {
+    font-size: 2rem;
+}*/
+
+div#wrapper-navbar {
+   max-width: 100%;
+margin: auto;
+}
+.row.white-menu {
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.container.small-menu {
+    float: right;
+    max-width: 100%; 
+    font-size: .75rem;
+    background-color: #0033A0e6;
+    text-align: right;
+    
+}
+
+.container.logo-brand {
+    display: inline-block;
+    max-width: 100px;
+    
+   
+}
+aside#secondary {
+    vertical-align: middle;
+    padding-top: 15px;
+}
+  ul#menu-small li {
+    display: inline;
+    font-size: .6rem;
+}
+
+
+#menu-small li:after {
+    content: "|";
+    color: #fff;
+padding-left: .3rem;
+padding-right: .1rem;
+}
+#menu-small a, #main-menu a {
+    color: #fff;
+}
+
+#menu-small li:last-child:after {
+    display:none;}
+
+
+ul#main-menu {
+    width: 100%;
+    /*font-size: .7rem;*/
+    display: inline-flex;
+}
+#main-menu sup {
+    top: -.38rem;
+    font-size: 45%;
+}
+div#wpadminbar {
+    display: none;
+}
+.navbar {
+   
+    padding: 0rem 1rem;
+    background-color: #0033A0;
+}
+
+a.navbar-brand.custom-logo-link {
+    max-width: 100rem;
+    min-width: 60rem;
+}
+
+button.navbar-toggler {
+    float: right;
+}
+.entry-footer span {
+    padding-right: 10px;
+    display: none;
+}
+
+footer#colophon {
+    display: none;
+}
+.logo-brand {
+    max-width: 100px;
+    margin-right: 1rem;
+	margin-left: 1.5rem;
+}
+
+.bloginfo {margin-top: 1rem;}
+.bloginfo h1 {
+    font-size: 1.5rem; color:#2b3b93;
+margin: 0;
+    font-family: 'Conv_ERASBD', sans-serif;
+}
+.bloginfo p {
+    font-size: .9rem; color:#2b3b93; font-family: 'droid_sansbold', sans-serif;
+}
+
+#main-menu li {
+    width: 10%;
+    box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666, /*top external shadow*/ inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(255,255,255,0.8);
+    text-align: center;
+    line-height: 1.4;
+    padding: .6rem 0 0 0;
+	font-family: 'Conv_ERASMD', sans-serif;;
+}
+
+#main-menu li:first-child {
+width: 5%;}
+
+#main-menu li:nth-child(2),#main-menu li:nth-child(3),#main-menu li:nth-child(4) {
+    width: 20%;
+ 
+}
+li#menu-item-224{
+background-color: #CB6015;}
+
+li#menu-item-35{
+background-color: #642F6C;}
+li#menu-item-37{
+background-color: #4F868E;}
+li#menu-item-227{
+background-color: #9D2235;}
+
+#main-menu a.nav-link {
+    padding: 0;
+}
+
+div#calendar_wrap {
+    font-size: .5rem;
+    float: right;
+}
+
+.widget_search label.assistive-text {
+    display: none;
+}
+
+#searchform .input-group {
+    position: relative;
+    display: flex;
+    width: 20%;
+}
+
+ul#menu-small {
+    float: right;
+}
+@media (min-width: 968px){
+	
+	ul#main-menu {
+    font-size: .8rem;
+}
+}
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .75rem;
+    padding-left: .75rem; 
+max-width: 100%;
+}
+.feature.card {
+        margin-top:1.75rem;
+}
+.feature h2 {
+    font-size: .87rem;
+    /*height: 3rem;*/
+    line-height: 1.2;
+}
+
+.card-header {
+    padding: 0 .2rem;}
+
+body.page-template{
+    background-image: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 100%;}
+
+
+    }
+}
+
