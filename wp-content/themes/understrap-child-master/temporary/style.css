@@ -1,0 +1,23 @@
+/*
+ Theme Name:   UnderStrap Child
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       Holger Koenemann
+ Author URI:   http://www.holgerkoenemann.de
+ Template:     understrap
+ Version:      0.3.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+
+
+<?php
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+function my_theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+
+}
+?>
