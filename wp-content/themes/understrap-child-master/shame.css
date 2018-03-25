@@ -247,8 +247,26 @@ text-decoration:none;}
 
 ul#main-menu {
         width: 100%;
-    font-size: .7rem;
+    font-size: .9rem;
     display: inline-flex;
+}
+#main-menu li.menu-item {
+    width: 100%;
+    padding-left: .5rem;
+border: 1px solid #fff;} 
+
+.dropdown-menu li{
+    padding: .2rem 0;
+    margin: .125rem 0 0;
+    font-size: .8rem;
+    color: #fff;
+    background-color: transparent; 
+    background-clip: padding-box;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #fff;
+    /* border-radius: .25rem; */
 }
 #main-menu sup {
     top: -.25rem;
@@ -299,11 +317,7 @@ nav.container.navigation.post-navigation, #comments {
     display: none;}
 
 
-#main-menu li {
-    box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666, /*top external shadow*/ inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(255,255,255,0.8);
 
-    font-family: 'Conv_ERASMD', sans-serif;;
-}
 
 /*#main-menu li:first-child {
 width: 5%;}
@@ -362,22 +376,29 @@ ul#main-menu {
 }
 }
 
-@media (min-width: 968px){
+@media (max-width: 1120px)and (min-width: 968px){
 	
 ul#main-menu {
     font-size: .7rem;
 }
 }
 
-@media (min-width: 820px){
+@media (max-width: 968px)and (min-width: 860px){
 ul#main-menu {
     font-size: .65rem;
     line-height: 2;
 }
 }
-@media (min-width: 768px){
+
+@media (max-width: 860px) and (min-width: 768px){
 ul#main-menu {
     font-size: .55rem;
+    line-height: 2;
+}
+}
+@media (min-width: 768px){
+ul#main-menu {
+    /*font-size: .55rem;*/
     line-height: 2;
 }
 .dropdown-toggle::after {
@@ -386,6 +407,12 @@ ul#main-menu {
     max-width: 100px;
     margin: auto .9rem auto 2rem;}
     /* margin: auto;}*/
+
+    nav.navbar-dark, #main-menu li {
+    box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666, /*top external shadow*/ inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(255,255,255,0.8);
+
+    font-family: 'Conv_ERASMD', sans-serif;
+}
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem; 
@@ -393,13 +420,19 @@ ul#main-menu {
     /*margin-right: .5rem;
     margin-left: .3rem;*/
 }
+
+#main-menu li.menu-item {
+    width: auto;
+    padding-left: 0rem;
+    border:0;
+    }
 .bloginfo h1 {
  text-align:left;  
 }
 .bloginfo p {
      text-align:left;
 }
-
+.row.white-menu {margin-left: 0; }
 .feature.card {
         margin-top:1.75rem;
 }
