@@ -37,4 +37,8 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/volutionMI/HSM_testing.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-Volution:htdocs Volution$ 
+Volution:htdocs Volution$ $ npm install
+
+cd /Applications/MAMP/htdocs/HSM_testing/wp-content/themes/understrap-child-master
+
+
