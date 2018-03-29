@@ -142,7 +142,7 @@ div#wrapper-footer {
     border: 1px solid #000;
     margin: .7rem 0;
 }
-#page-wrapper{ background-color: #0033a02e;}
+/*#page-wrapper{ background-color: #0033a02e;}*/
 
 .article:first-child .feature.card {
     background-color: #00000002;
@@ -182,12 +182,12 @@ i.fa.fa-home {
 /*margin-top: -6px;*/
 
 }
-body {
+/*body {
     font-family: 'droid_sansregular';
 }
 
 
-/*li#menu-item-273 {
+li#menu-item-273 {
     font-size: 2rem;
 }*/
 
@@ -446,8 +446,8 @@ ul#main-menu {
     padding: 0 .2rem;}
 
 body{
-    background-image: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg);
-    background-position: center top;
+    /*background-image: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg);
+    */background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll; 

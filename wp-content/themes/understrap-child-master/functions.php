@@ -37,9 +37,9 @@ function understrap_widgets_init() {
     ) );
 
     register_sidebar( array(
-        'name'          => __( 'Content Bottom 1', 'understrap' ),
+        'name'          => __( 'footer_1', 'understrap' ),
         'id'            => 'sidebar-2',
-        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'understrap' ),
+        'description'   => __( 'Appears footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',
@@ -47,7 +47,7 @@ function understrap_widgets_init() {
     ) );
 
     register_sidebar( array(
-        'name'          => __( 'Content Bottom 2', 'understrap' ),
+        'name'          => __( 'content_bottom 2', 'understrap' ),
         'id'            => 'sidebar-3',
         'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',

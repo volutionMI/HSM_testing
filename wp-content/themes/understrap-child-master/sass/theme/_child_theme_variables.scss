@@ -4,11 +4,247 @@
 // As example you find one of the most important Bootstrap variable below: $brand-primary.
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
+/*
+* Orson http://en.orson.io , autreplanete http://www.autreplanete.com/ 
+*  
+**/
+
+$brand-primary:         #0033a0; //#ff6d5a
+// Brand Colors
+$blue: #0033a0;
+$indigo: #dfe2ef;
+$purple: #642f6c;
+$pink: #b9975b;
+$red: #c8102e;
+$orange: #cb6015;
+$yellow: #f3d03e;
+$green: #4a7729;
+$teal: #00b2a9;
+$cyan: #744f28;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$colors: () !default;
+$colors: map-merge((
+ "blue": $blue,
+ "indigo": $indigo,
+ "purple": $purple,
+ "pink": $pink,
+ "red": $red, 
+ "orange": $orange,
+ "yellow": $yellow, 
+ "green": $green, 
+ "teal": $teal, 
+ "cyan": $cyan,
+ "white": $white,
+ "gray": $gray-600,
+ "gray-dark": $gray-800
+ ), $colors);
+
+ 
+$theme-colors: (primary: $blue, secondary: $green, success: $purple, info: $pink, warning: $teal, danger: $yellow, light: $indigo, dark: $cyan);
+$colors: (blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, gray: $gray-600,gray-dark: $gray-800);
 
 
-//
-// Color system
-//
 
-$primary: #7C008C;
+
+$theme-color-interval: 8%;
+// Spacing
+$spacer: 1rem;
+$spacers: (0: 0, 1: ($spacer * 0.25), 2: ($spacer * 0.5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3));
+$sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
+
+// Body
+$body-bg: $white;
+$body-color: $black;
+
+
+// Links
+$link-color: theme-color('primary');
+$link-decoration: underline;
+$link-hover-color: theme-color('primary');
+$link-hover-decoration: underline;
+
+
+// Grid
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+
+// Components
+$line-height-lg: 1.5;
+$line-height-sm: 1.5;
+$border-width: 1px;
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+$component-active-color: $white;
+$component-active-bg: theme-color('primary');
+$caret-width: 0.3em;
+$transition-base: all 0.2s ease-in-out;
+$transition-fade: opacity 0.15s linear;
+$transition-collapse: height 0.35s ease;
+
+
+// Fonts
+$font-family-sans-serif: 'droid_sansregular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: 'Conv_ERASBD', sans-serif;;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$font-size-lg: 1.3rem;
+$font-size-sm: 0.8rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$h1-font-size: 2 rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.15rem;
+$h6-font-size: 1rem;
+
+$headings-margin-bottom: ($spacer / 2);
+$headings-font-family: $font-family-monospace;
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
+$headings-color: inherit;
+$display1-size: 3rem;
+$display2-size: 2.5rem;
+$display3-size: 2rem;
+$display4-size: 1.5rem;
+$display1-weight: 800;
+$display2-weight: 300;
+$display3-weight: 700;
+$display4-weight: 500;
+$display-line-height: $headings-line-height;
+$lead-font-size: inherit;
+$lead-font-weight: inherit;
+$small-font-size: 80%;
+$text-muted: $gray-600;
+$blockquote-small-color: $gray-600;
+$blockquote-font-size: ($font-size-base * 1.25);
+$hr-border-color: rgba($black, 0.1);
+$hr-border-width: $border-width;
+$mark-padding: 0.2em;
+$dt-font-weight: $font-weight-bold;
+$kbd-box-shadow: inset 0 -0.1rem 0 rgba($black, 0.25);
+$nested-kbd-font-weight: $font-weight-bold;
+$list-inline-padding: 5px;
+$mark-bg: #fcf8e3;
+
+
+// Buttons
+$input-btn-padding-y: 0.45rem;
+$input-btn-padding-x: 0.75rem;
+$input-btn-line-height: 1.25;
+$input-btn-padding-y-sm: 0.25rem;
+$input-btn-padding-x-sm: 0.5rem;
+$input-btn-line-height-sm: 1.5;
+$input-btn-padding-y-lg: 0.5rem;
+$input-btn-padding-x-lg: 1rem;
+$input-btn-line-height-lg: 1.5;
+$btn-font-weight: $font-weight-normal;
+$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075);
+
+$btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125);
+$btn-link-disabled-color: $gray-600;
+$btn-block-spacing-y: 0.5rem;
+$btn-border-radius: $border-radius;
+$btn-border-radius-lg: $border-radius-lg;
+$btn-border-radius-sm: $border-radius-sm;
+$btn-transition: all 0.15s ease-in-out;
+
+
+
+
+// Dropdown
+$dropdown-min-width: 10rem;
+$dropdown-padding-y: 0.5rem;
+$dropdown-spacer: 0.125rem;
+$dropdown-bg: #e9ecef;
+$dropdown-border-color: rgba($white, 0.15);
+$dropdown-border-width: $border-width;
+$dropdown-divider-bg: $gray-200;
+$dropdown-box-shadow: 0 0.5rem 1rem rgba($black, 0.175);
+
+$dropdown-link-hover-color: darken($gray-900, 5%);
+$dropdown-link-hover-bg: $gray-100;
+$dropdown-link-active-color: $component-active-color;
+$dropdown-link-active-bg: $component-active-bg;
+$dropdown-link-disabled-color: $gray-600;
+$dropdown-item-padding-y: 0.25rem;
+$dropdown-item-padding-x: 1.5rem;
+$dropdown-header-color: $gray-600;
+
+
+// Navs
+$nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 1rem;
+$nav-link-disabled-color: $gray-600;
+$nav-tabs-border-color: #ddd;
+$nav-tabs-border-width: $border-width;
+$nav-tabs-border-radius: $border-radius;
+$nav-tabs-link-hover-border-color: $gray-200;
+$nav-tabs-link-active-color: $gray-700;
+$nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: #ddd;
+$nav-pills-border-radius: $border-radius;
+$nav-pills-link-active-color: $component-active-color;
+$nav-pills-link-active-bg: $component-active-bg;
+
+
+// Navbar
+$navbar-padding-y: ($spacer / 2);
+$navbar-padding-x: $spacer;
+$navbar-brand-font-size: $font-size-lg;
+$nav-link-height: $navbar-brand-font-size * $line-height-base;
+$navbar-brand-height: ($font-size-base * $line-height-base + $nav-link-padding-y * 2);
+$navbar-brand-padding-y: ($navbar-brand-height - $nav-link-height) / 2;
+$navbar-toggler-padding-y: 0.25rem;
+$navbar-toggler-padding-x: 0.75rem;
+$navbar-toggler-font-size: $font-size-lg;
+$navbar-toggler-border-radius: $btn-border-radius;
+$navbar-dark-color: rgba($white, 0.5);
+$navbar-dark-hover-color: rgba($white, 0.75);
+$navbar-dark-active-color: rgba($white, 1);
+$navbar-dark-disabled-color: rgba($white, 0.25);
+$navbar-dark-toggler-border-color: rgba($white, 0.1);
+$navbar-light-color: rgba($black, 0.5);
+$navbar-light-hover-color: rgba($black, 0.7);
+$navbar-light-active-color: rgba($black, 0.9);
+$navbar-light-disabled-color: rgba($black, 0.3);
+$navbar-light-toggler-border-color: rgba($black, 0.1);
+
+
+
+
+
+
+
+// Cards
+$card-spacer-y: 0.75rem;
+$card-spacer-x: 1.25rem;
+$card-border-width: 1px;
+$card-border-radius: $border-radius;
+$card-border-color: rgba($black, 0.125);
+$card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width});
+$card-cap-bg: rgba($black, 0.03);
+$card-bg: $white;
+$card-img-overlay-padding: 1.25rem;
+$card-deck-margin: ($grid-gutter-width / 2);
+$card-columns-count: 3;
+$card-columns-gap: 1.25rem;
+$card-columns-margin: $card-spacer-y;
 
