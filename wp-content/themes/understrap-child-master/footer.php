@@ -11,7 +11,7 @@ $the_theme = wp_get_theme();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_sidebar( 'footerfull' ); ?>
+
 
 <div class="wrapper" id="wrapper-footer">
 
@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 
-			<div class="col-md-12"><?php get_sidebar('menu1'); ?>
+			<div class="col-md-12"><?php get_sidebar('footerfull'); ?>
 
 				<footer class="site-footer" id="colophon">
 

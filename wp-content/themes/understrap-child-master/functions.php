@@ -23,6 +23,7 @@ function theme_enqueue_styles() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
+ // add custom menuMRB
 function wpb_custom_new_menu() {
   register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
 }
@@ -42,7 +43,7 @@ function understrap_widgets_init() {
     ) );
 
     register_sidebar( array(
-        'name'          => __( 'footer_1', 'understrap' ),
+        'name'          => __( 'footer2', 'understrap' ),
         'id'            => 'sidebar-2',
         'description'   => __( 'Appears footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -54,7 +55,7 @@ function understrap_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'footerfull', 'understrap' ),
         'id'            => 'sidebar-3',
-        'description'   => __( 'full_width_footer.', 'understrap' ),
+        'description'   => __( 'full width footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',
