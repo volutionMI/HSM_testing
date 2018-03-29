@@ -8,9 +8,17 @@
     padding-top: 7px;
 }
 
+div#content {
+    min-width: 100%;
+}
+
 @include media-breakpoint-up(xs) { 
  body {
         background: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg); 
     }
     }
 
+
+  #page-wrapper {
+ background: rgba($primary, .2) 
+ }
