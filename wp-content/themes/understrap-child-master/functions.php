@@ -23,6 +23,11 @@ function theme_enqueue_styles() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
+function wpb_custom_new_menu() {
+  register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+}
+add_action( 'init', 'wpb_custom_new_menu' );
+
 
     // add widgets to theme including one for a custom menuMRB
 function understrap_widgets_init() {
@@ -47,9 +52,9 @@ function understrap_widgets_init() {
     ) );
 
     register_sidebar( array(
-        'name'          => __( 'content_bottom 2', 'understrap' ),
+        'name'          => __( 'footerfull', 'understrap' ),
         'id'            => 'sidebar-3',
-        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'understrap' ),
+        'description'   => __( 'full_width_footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',

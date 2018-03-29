@@ -38,7 +38,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!--nav class="navbar navbar-expand-md navbar-dark bg-dark"-->
 
 		<?php if ( 'container' == $container ) : ?>
-			<div class="container small-menu"><?php get_sidebar(smenu1); ?>	</div>
+			<div class="container small-menu"><?php
+wp_nav_menu( array( 
+    'theme_location' => 'my-custom-menu', 
+    'container_class' => 'custom-menu-class' ) ); 
+?>
+	</div>
 	<div class="row white-menu">
 <div class="logo-brand">
 		<?php endif; ?>

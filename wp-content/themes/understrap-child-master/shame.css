@@ -203,7 +203,7 @@ margin: auto;
 
 }
 
-.container.small-menu {
+/*.container.small-menu {
     max-width: 100%; 
     font-size: .75rem;
     background-color: #0033A0e6;
@@ -214,7 +214,7 @@ margin: auto;
 #secondary.small-menu {
     float:right;
     padding-top: 7px;
-}
+}*/
 .container.logo-brand {
     display: inline-block;
     max-width: 100px;
