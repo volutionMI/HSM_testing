@@ -105,7 +105,7 @@ border-bottom-color: #C8102E; }
 }
 
 div#wrapper-footer {
-    background-color: #0033A0e2;
+    background-color: #0033A0;
     mix-blend-mode: multiply;
 }
 .card-header {
@@ -158,9 +158,6 @@ div#wrapper-footer {
 
 
 
-
-
-
 .feature.card .card-body {
     flex: 1 1 auto;
     padding: 0 .35rem;
@@ -180,22 +177,14 @@ i.fa.fa-home {
     color: #fff;
     font-size: 1.2rem;
 /*margin-top: -6px;*/
-
-}
-/*body {
-    font-family: 'droid_sansregular';
 }
 
-
-li#menu-item-273 {
-    font-size: 2rem;
-}*/
 
 #mega-menu-wrap-primary .mega-menu-toggle {background: none;}
 
 div#wrapper-navbar {
    max-width: 100%;
-margin: auto;
+    margin: auto;
 }
 .row.white-menu {
     width: 100%;
@@ -203,23 +192,11 @@ margin: auto;
 
 }
 
-/*.container.small-menu {
-    max-width: 100%; 
-    font-size: .75rem;
-    background-color: #0033A0e6;
-    text-align: right;
-    height:40px;
-    
-}
-#secondary.small-menu {
-    float:right;
-    padding-top: 7px;
-}*/
+
 .container.logo-brand {
     display: inline-block;
-    max-width: 100px;
-    
-   
+    max-width: 100px;  
+
 }
 aside#secondary {
     vertical-align: middle;
@@ -275,8 +252,7 @@ border: 1px solid #fff;}
 div#wpadminbar {
     display: none;
 }
-.navbar {
-   
+.navbar {  
     padding: 0rem 1rem;
     background-color: #0033A0;
 }
@@ -302,7 +278,8 @@ footer#colophon {
     margin: auto;
 }
 
-.bloginfo {margin-top: 1rem;}
+.bloginfo {margin: 1rem auto;}
+
 .bloginfo h1 {
     font-size: 1.5rem; color:#2b3b93;
 margin: 0;
@@ -316,25 +293,6 @@ margin: 0;
 nav.container.navigation.post-navigation, #comments {
     display: none;}
 
-
-
-
-/*#main-menu li:first-child {
-width: 5%;}
-
-#main-menu li:nth-child(2),#main-menu li:nth-child(3),#main-menu li:nth-child(4) {
-    width: 20%;
- 
-}
-#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-372{
-background-color: #642F6C;}
-
-#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-373{
-background-color: #CB6015;}
-#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-374{
-background-color: #9D2235;}
-#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item-375{
-background-color: #4F868E;}*/
 li#menu-item-224{
 background-color: #642F6C;}
 
@@ -398,29 +356,27 @@ ul#main-menu {
 }
 @media (min-width: 768px){
 ul#main-menu {
-    /*font-size: .55rem;*/
     line-height: 2;
-}
+    }
 .dropdown-toggle::after {
-    dispLay:none;}
+    dispLay:none;
+    }
 .logo-brand {
     max-width: 100px;
     margin: auto .9rem auto 2rem;}
     /* margin: auto;}*/
-
-    nav.navbar-dark, #main-menu li {
+    }
+nav.navbar-dark, #main-menu li {
     box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666, /*top external shadow*/ inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(255,255,255,0.8);
-
     font-family: 'Conv_ERASMD', sans-serif;
-}
+    }
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem; 
     max-width: 100%;
     /*margin-right: .5rem;
     margin-left: .3rem;*/
-}
-
+    }
 #main-menu li.menu-item {
     width: auto;
     padding-left: 0rem;
@@ -428,22 +384,32 @@ ul#main-menu {
     }
 .bloginfo h1 {
  text-align:left;  
-}
+    }
 .bloginfo p {
-     text-align:left;
-}
-.row.white-menu {margin-left: 0; }
+    text-align:left;
+    }
+.row.white-menu {
+    margin-left: 0; 
+    }
 .feature.card {
-        margin-top:1.75rem;
-}
+    margin-top:1.75rem;
+    }
 .feature h2 {
     font-size: .87rem;
     /*height: 3rem;*/
     line-height: 1.2;
-}
-#mega-menu-wrap-primary #mega-menu-primary ul.mega-sub-menu {box-shadow: none;}
+    }
+#mega-menu-wrap-primary #mega-menu-primary ul.mega-sub-menu {box-shadow: none;
+    }
 .card-header {
     padding: 0 .2rem;}
+
+
+.bloginfo {
+    margin-top: 1rem;
+    margin-left: 0;
+    float:left;
+    }
 
 body{
     /*background-image: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg);
@@ -451,8 +417,25 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll; 
+    }
+button.navbar-toggler {
+    background: #0033A0;
+    }
+
+.collapse.show {
+    display: block;
+    background: #0033A0;
+    }
+
+ul#main-menu {
+    background: #0033A0;
+    }
+
+.navbar {
+    background-color: transparent;
+    }
 }
-}
+
 @media (min-width: 576px) {
 .container {
     max-width: 100%;}
@@ -461,3 +444,50 @@ body{
     }
 }
 
+#page-wrapper {
+  background: rgba(0, 51, 160, 0.2); }
+
+ .footer {
+ background:#f6f6f6;
+ padding:20px 0;
+ border-top:2px solid orange;
+}
+.widget h2 {
+ cursor:pointer;  
+ font-size:18px;
+ font-weight:bold;
+ padding-bottom:5px;
+}
+.footer-bottom {
+ background:#d8d8d8;
+ padding:15px 0;
+ border-top:1px solid #d9d9d9;
+ font-size:11px;
+ color:#777;
+}
+  
+@media only screen and (max-width: 479px) {    
+     .widget_content{
+        display:none;
+    }
+    .active .widget_content{
+        display:inline; 
+    }
+    .widget h2 { 
+        border-bottom:1px solid #ddd;
+    }   
+    .widget h2:after {
+        content:"\203A";
+        color:white;
+        width:20px;
+        height:20px;
+        background:#999;
+        display:inline-block;
+        text-align:center;
+        float:right;
+    }
+    .active.widget h2:after {
+        content:"\2039";    
+        background:#ccc;
+    }
+}
