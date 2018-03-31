@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php wp_head(); ?>
 	<!-- child MRB -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/wp-content/themes/understrap-child-master/shame.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://localhost:8888/wp-content/themes/understrap-child-master/shame.css" type="text/css" media="all">
 </head>
 
 <body <?php body_class(); ?>>
@@ -66,7 +66,7 @@ wp_nav_menu( array(
 				the_custom_logo();
 			} ?><!-- end custom logo start MRB-->
 		</div>	
-		<div class="bloginfo"><h1><?php bloginfo( 'name' ); ?></h1><p><?php bloginfo( 'description' ); ?>
+		<div class="bloginfo"><h3><?php bloginfo( 'name' ); ?></h3><p><?php bloginfo( 'description' ); ?>
 		</div>		
 	</div>
 	<nav class="navbar navbar-expand-md navbar-dark"><!-- end MRB-->			
