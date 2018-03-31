@@ -34,7 +34,7 @@ add_action( 'init', 'wpb_custom_new_menu' );
 function understrap_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Sidebar', 'understrap' ),
-        'id'            => 'sidebar-1',
+        'id'            => 'sidebar',
         'description'   => __( 'Add widgets here to appear in your sidebar.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -44,7 +44,7 @@ function understrap_widgets_init() {
 
     register_sidebar( array(
         'name'          => __( 'footer2', 'understrap' ),
-        'id'            => 'sidebar-2',
+        'id'            => 'footer2',
         'description'   => __( 'Appears footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -54,7 +54,7 @@ function understrap_widgets_init() {
 
     register_sidebar( array(
         'name'          => __( 'footerfull', 'understrap' ),
-        'id'            => 'sidebar-3',
+        'id'            => 'footerfull',
         'description'   => __( 'full width footer.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -63,8 +63,27 @@ function understrap_widgets_init() {
     ) );
     
     register_sidebar( array(
+            'name'          => __( 'Right Sidebar', 'understrap' ),
+            'id'            => 'right-sidebar',
+            'description'   => 'Right sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Left Sidebar', 'understrap' ),
+            'id'            => 'left-sidebar',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+    register_sidebar( array(
         'name'          => __( 'smenu1', 'understrap' ),
-        'id'            => 'sidebar-4',
+        'id'            => 'smenu1',
         'description'   => __( 'Appears in header.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -74,7 +93,7 @@ function understrap_widgets_init() {
     
     register_sidebar( array(
         'name'          => __( 'smenu2', 'understrap' ),
-        'id'            => 'sidebar-5',
+        'id'            => 'smenu2',
         'description'   => __( 'Appears in header.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -84,7 +103,7 @@ function understrap_widgets_init() {
     
     register_sidebar( array(
         'name'          => __( 'smenu3', 'understrap' ),
-        'id'            => 'sidebar-6',
+        'id'            => 'smenu3',
         'description'   => __( 'Appears in header.', 'understrap' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
@@ -93,6 +112,5 @@ function understrap_widgets_init() {
     ) );
 }
 add_action( 'widgets_init', 'understrap_widgets_init' );
-
 
 ?>

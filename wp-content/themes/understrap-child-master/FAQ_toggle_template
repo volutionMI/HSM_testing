@@ -1,0 +1,265 @@
+<!--original code https://bootsnipp.com/snippets/920E4-->
+<div class="container">
+	<div class="row">
+		<div class="panel-group" id="accordion">
+  <!--begin first toggle-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <!-- <h2 class="display-4 panel-title"> original description-->
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Who operates the Michigan Centennial Farm Program?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse1" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">The Historical Society of Michigan has operated the Centennial Farm Program since July 1, 2008. Before that, the program was operated by the Michigan Historical Commission, which first founded the program in 1948 in cooperation with Consumers Energy (then known as Consumers Power Company) and DTE (then known as the Detroit Edison Company).
+      </div><!--end panel body-->
+    </div><!--end collapse1-->
+  </div><!--end panel panel-default end first toggle-->
+
+    <!--begin 2nd toggle-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        How much does it cost to submit an application to the Michigan Centennial Farm Program?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse2" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">The Centennial Farm Program price list is as follows:
+        <ul>
+          <li>Centennial Farm Application Fee - $95</li>
+          <li>Centennial Farm <em>Replacement Sign</em> -  $91.50</li>
+          <li>Sesquicentennial Farm Application Fee - $49</li>
+          <li>Sesquicentennial Farm <em>Replacement Sign</em> - $46.10</li>
+          <li>Bicentennial Farm Application Fee - $95</li>
+        </ul>
+      </div><!--end panel body-->
+    </div><!--end collapse2-->
+  </div><!--end panel panel-default end 2nd toggle-->
+
+    <!--begin 3rd toggle-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        What are the requirements for Centennial certification?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse3" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>To be designated as a Centennial Farm through the Michigan Centennial Farm Program, a property must be a working farm of 10 or more acres that has been continuously owned by the same family for at least 100 years.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse1-->
+  </div><!--end panel panel-default end 3rd toggle-->
+
+    <!--begin 4th toggle-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        What do I need to include with my Centennial Farm Application?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse4" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">In addition to a completed application, which has been signed by all current farm owners, your application should include:
+      <ul>
+        <li>Photocopies of documentation of ownership, starting with the transaction in which the property came into the family and establishing the family’s continuous chain of title down to the present owner (i.e., deeds, land contracts, or mortgages)</li>
+        <li>Proof of present ownership (i.e., a tax bill)</li>
+        <li>Film or printed digital photographs depicting all current buildings and structures on the farm, as well as few images showing an overall view of the property (do not send photocopies)</li>
+        <li>A non-refundable $95 application fee, which includes the cost of the sign</li>
+      </ul>
+      </div><!--end panel body-->
+    </div><!--end collapse4-->
+  </div><!--end panel panel-default end 4th toggle-->
+
+    <!--begin 5th toggle-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        What if I don’t have records that prove my family’s ownership?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse5" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">You can visit your county’s Register of Deeds to obtain your property’s ownership history. You can also contact a title company to produce a property ownership report, commonly called a “Chain of Title” report, for a fee.
+      </div><!--end panel body-->
+    </div><!--end collapse5-->
+  </div><!--end panel panel-default end toggle 5-->
+
+
+    <!--begin toggle 6-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        Who installs the signs?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse6" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>The farm is responsible for its own sign installation.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse6-->
+  </div><!--end panel panel-default end toggle 6-->
+
+
+    <!--begin toggle 7-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Does my last name have to be the same as the original owner?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse7" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>No. You must be from the same family as the original farm owner, but you do not have to have the same last name.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse7-->
+  </div><!--end panel panel-default end toggle7-->
+
+
+    <!--begin toggle 8-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+        What are the requirements for Sesquicentennial certification?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse8" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>To be designated as a Sesquicentennial Farm through the Centennial Farm Program, a property must be a working farm of 10 or more acres that has been continuously owned by the same family for at least 150 years. Please note that your farm must be certified as Centennial Farm through the Centennial Farm Program before you can apply for Sesquicentennial status.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse8-->
+  </div><!--end panel panel-default end toggle8-->
+
+
+    <!--begin toggle 9-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+        What do I need to include with my Sesquicentennial Farm Application?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse9" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>To be designated as a Bicentennial Farm through the Centennial Farm Program, a property must be a working farm of 10 or more acres that has been continuously owned by the same family for at least 200 years. Please note that your farm must be certified as a Centennial Farm through the Centennial Farm Program before you can apply for Bicentennial status.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse9-->
+  </div><!--end panel panel-default end toggle9-->
+
+      <!--begin toggle 10-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+        What do I need to include with my Bicentennial Farm Application?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse10" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>In addition to a completed application, your application should include:</p>
+        <ul>
+          <li>A copy of a recent tax bill to evidence current ownership</li>
+          <li>Documentation (i.e., deeds, mortgages, or land contracts) to support any changes in the farm’s ownership since it was certified as a Centennial Farm</li>
+          <li>A non-refundable $95 application fee, which includes the cost of the sign</li>
+        </ul>
+      </div><!--end panel body-->
+    </div><!--end collapse10-->
+  </div><!--end panel panel-default end toggle10-->
+
+      <!--begin toggle 11-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+        How do I order a replacement sign?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse11" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>If your original sign is looking worn out, or if you would like to place multiple signs around your property, you can order a replacement sign using the Replacement Sign Order Form. Please note that you may only order replacement signs if your farm has already been certified as a Centennial or Sesquicentennial Farm.
+      <p>In addition to a completed order form, your order form should include:</p>
+      <ul>
+        <li>Proof of current ownership (i.e., a recent tax bill, deeds, mortgages, or land contracts)</li>
+        <li>Documentation (i.e., deeds, mortgages, or land contracts) to support any changes in the farm’s ownership since its last certification through the Centennial Farm Program</li>
+        <li>Non-refundable application fee, which includes the cost of the sign ($91.50 for Centennial, $46.10 for Sesquicentennial)</li>
+      </ul>
+      </div><!--end panel body-->
+    </div><!--end collapse11-->
+  </div><!--end panel panel-default end toggle11-->
+
+
+
+        <!--begin toggle 12-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+        How long does the application process take?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse12" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">The application normally takes two weeks to process. Then, once the sign is ordered, it normally takes four to six weeks for the sign to be shipped.
+      </div><!--end panel body-->
+    </div><!--end collapse12-->
+  </div><!--end panel panel-default end toggle12-->
+
+    <!--begin toggle 13-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+        Are there any tax benefits to owning a Centennial Farm?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse12" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2">While there are no tax benefits to owning a Centennial Farm, it is quite an honor for your property to be recognized through the Michigan Centennial Farm Program.  The data you provide with your application is invaluable and can possibly help researchers in the future. Once certified, you also are eligible to join the Michigan Centennial Farm Association (<a href="http://www.michigancentennialfarm.org/">michigancentennialfarm.org</a>), which is an organization that is dedicated to preserving the heritage of agriculture in Michigan.
+
+      </div><!--end panel body-->
+    </div><!--end collapse13-->
+  </div><!--end panel panel-default end toggle13-->
+
+
+      <!--begin toggle 14-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">
+        Where is the oldest Centennial Farm in Michigan?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse14" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>Michigan’s oldest Centennial Farm is the de Beausset Farm, located on Grosse Ile. The land first came into Denise de Beausset’s family in 1776, when Alexander Macomb and William Macomb, two British government agents and merchants, purchased Grosse Ile from the Natives and established farms. Denise de Beausset is the great-great-great-great granddaughter of both Alexander and William Macomb. The present farm comprises approximately 27.5 acres and is operated as <a href="http://www.westcroftgardens.com/" target="_blank">Westcroft Gardens.</a>
+      </div><!--end panel body-->
+    </div><!--end collapse14-->
+  </div><!--end panel panel-default end toggle14-->
+
+
+        <!--begin toggle 15-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h2 class="display-4 panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">
+        I’m interested in finding a Centennial Farm in my area—can you help me with that?</a>
+      </h2>
+    </div><!--end panel-heading-->
+    <div id="collapse15" class="panel-collapse collapse in">
+      <!--begin panel body-->
+      <div class="panel-body flex-column p-2"><p>Yes. The Historical Society of Michigan can provide you with information about individual certified farms or groups of farms by geographic area. For more information, call (517) 324-1828 or <a href="mailto:someone@example.com?Subject=Web%20Enquiry%20Regarding%20Centennial%20Farms" target="_top">e-mail hsm@hsmichigan.org<a>.</p>
+      </div><!--end panel body-->
+    </div><!--end collapse15-->
+  </div><!--end panel panel-default end toggle15-->
+
+	</div>
+</div>

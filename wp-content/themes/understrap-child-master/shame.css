@@ -335,6 +335,7 @@ div#calendar_wrap {
 ul#menu-small {
     float: right;
     padding-left: .9rem;
+    margin-top: 0;
 }
 button.navbar-toggler {
     /*background: #0033A0;*/
@@ -436,8 +437,9 @@ body{
     background: #0033A0;
     }
 
-ul#main-menu {
-    background: #0033A0;
+ul#main-menu {  
+    margin-top: 0;
+    /* background: #0033A0; */
     }
 
 .navbar {
