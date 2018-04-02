@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Left Sidebar Layout
+ * Template Name: CF Layout
  *
  * This template can be used to override the default template and sidebar setup
  *
@@ -17,10 +17,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 
-			<?php get_sidebar( 'left' ); ?>
+			<?php get_sidebar( 'cf' ); ?>
 
-			<div class="<?php if ( is_active_sidebar( 'left-sidebar' ) ) : ?>
-				col-md-9<?php else : ?>col-md-12<?php endif; ?> content-area" id="primary">
+			<div class="<?php if ( is_active_sidebar( 'cf' ) ) : ?>
+				col-md-9<?php else : ?>col-md-12<?php endif; ?> content-area" id="mrb">
 
 				<main class="site-main" id="main" role="main">
 
