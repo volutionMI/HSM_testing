@@ -75,7 +75,15 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
             'after_title'   => '</h3>',
         ) );
 
-
+        register_sidebar( array(
+            'name'          => __( 'MOTR Sidebar', 'understrap' ),
+            'id'            => 'motr',
+            'description'   => 'right sidebar for motr widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title cf">',
+            'after_title'   => '</h3>',
+        ) );
 
     }
 } // endif function_exists( 'understrap_widgets_init' ).
