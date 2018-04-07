@@ -8944,6 +8944,19 @@ a.skip-link {
 div#content {
   min-width: 100%; }
 
+#wrapper-footer-full,
+#wrapper-static-hero {
+  background-color: transparent; }
+
+#nav_menu-5 {
+  color: #fff;
+  font-size: .6rem; }
+
+#nav_menu-5 ul#menu-main {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2; }
+
 body {
   background: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg); }
 
