@@ -45,8 +45,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 		<?php endif; ?>
 
  		 <div class="card-body"> 
-  			<?php the_content(); ?>
-  		</div>
+  			<?php the_excerpt(); ?>  		</div>
 
  </div><!-- closes the first div box --></a></div>
 
