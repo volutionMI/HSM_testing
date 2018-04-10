@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="footer-bottom">
     <div class="container">
     	<div class="col-md-12 copyright">
-    		<p>&copy; <?php echo date("Y"); echo " "; echo bloginfo('name'); ?></p><span class="pull-right">&nbsp;</span>
+    		<p>1.00_180410&copy; <?php echo date("Y"); echo " "; echo bloginfo('name'); ?></p><span class="pull-right">&nbsp;</span>
         </div>
 
 	</div><!-- container end -->

@@ -340,6 +340,19 @@ ul#menu-small {
 button.navbar-toggler {
     /*background: #0033A0;*/
     }
+
+    #nav_menu-5 ul#menu-main li.menu-item-403 {
+  color: #642F6C; }
+
+#nav_menu-5 ul#menu-main li.menu-item-404 {
+  color: #CB6015; }
+
+#nav_menu-5 ul#menu-main li.menu-item-405 {
+  color: #9D2235; }
+
+#nav_menu-5 ul#menu-main li.menu-item-406 {
+  color: #4F868E; }
+
     
 @media (min-width: 1120px){
     

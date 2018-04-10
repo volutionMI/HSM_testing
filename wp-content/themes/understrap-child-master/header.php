@@ -23,12 +23,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php wp_head(); ?>
 	<!-- child MRB -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-<link rel="stylesheet" href="http://localhost:8888/wp-content/themes/understrap-child-master/shame.css" type="text/css" media="all">
+<link rel="stylesheet" href="/wp-content/themes/understrap-child-master/shame.css" type="text/css" media="all">
 </head>
 
 <body <?php body_class(); ?>>
 
-<div class="hfeed site" id="page">
+<div class="hfeed site" id="page">1.00_180410
 
 	<!-- ******************* The Navbar Area ******************* -->
 <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
