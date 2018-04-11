@@ -81,9 +81,19 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
             'description'   => 'right sidebar for motr widget area',
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
             'after_widget'  => '</aside>',
-            'before_title'  => '<h3 class="widget-title cf">',
+            'before_title'  => '<h3 class="widget-title motr">',
             'after_title'   => '</h3>',
         ) );
+        register_sidebar( array(
+            'name'          => __( 'mhm Sidebar', 'understrap' ),
+            'id'            => 'mhm',
+            'description'   => 'right sidebar for mhm widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title mhm">',
+            'after_title'   => '</h3>',
+        ) );
+
 
     }
 } // endif function_exists( 'understrap_widgets_init' ).

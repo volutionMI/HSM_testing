@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2 rem; }
+  font-size: 2rem; }
 
 h2, .h2 {
   font-size: 1.5rem; }
@@ -9060,7 +9060,11 @@ dl, ol, ul {
 
 .copyright {
   color: #0033a0;
-  font-size: .5em; }
+  font-size: .6em;
+  height: 40px; }
+
+div.copyright p {
+  padding-top: 12px; }
 
 body {
   background: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg); }

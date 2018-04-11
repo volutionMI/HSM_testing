@@ -150,7 +150,11 @@ dl, ol, ul {
     background-color: #dfe2ef;
 }
 
-.copyright {color: $primary; font-size:.5em}
+.copyright {color: $primary; font-size:.6em; height: 40px;}
+
+div.copyright p {
+    padding-top: 12px;
+}
 
 @include media-breakpoint-up(xs) { 
  body {
