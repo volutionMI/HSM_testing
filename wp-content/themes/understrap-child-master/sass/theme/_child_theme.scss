@@ -1,5 +1,5 @@
 
-.container.small-menu {
+.small-menu {
     max-width: 100%;
     font-size: .75rem;
     background-color: #0033A0e6;
@@ -8,9 +8,7 @@
     padding-top: 7px;
 }
 
-div#content {
-    min-width: 100%;
-}
+
 #wrapper-footer-full, #wrapper-static-hero {
     background-color: transparent;
 }
@@ -105,26 +103,45 @@ dl, ol, ul {
     font-family: $font-family-monospace;
     padding-top:.7rem
 }
+ul#main-menu li#menu-item-403 {
+  background-color: #642F6C; }
 
-#nav_menu-5 ul#menu-main li.menu-item-224 {
+ul#main-menu li#menu-item-404 {
+  background-color: #CB6015; }
+
+ul#main-menu li#menu-item-405 {
+  background-color: #9D2235; }
+
+ul#main-menu li#menu-item-406 {
+  background-color: #4F868E; }
+
+
+#nav_menu-5 ul#menu-main li a {
+  text-decoration: none; }
+
+ul#menu-main li.menu-item-273 {
+    display: none;
+}
+#nav_menu-5 ul#menu-main li.menu-item-403 {
     color: #642F6C;
 }
-#nav_menu-5 ul#menu-main li.menu-item-766 {
+#nav_menu-5 ul#menu-main li.menu-item-404 {
     color: #CB6015;
 }
-#nav_menu-5 ul#menu-main li.menu-item-226 {
+#nav_menu-5 ul#menu-main li.menu-item-405 {
     color: #9D2235;
 }
 
-#nav_menu-5 ul#menu-main li.menu-item-227 {
+#nav_menu-5 ul#menu-main li.menu-item-406 {
     color: #4F868E;
 }
 
 #nav_menu-5 ul#menu-main li a {
     text-decoration: none;
 }
-#nav_menu-5 ul#menu-main li:first-child {
-    display:none;
+
+#nav_menu-5 ul#menu-main li.menu-item-209 {
+    display: none;
 }
 
 

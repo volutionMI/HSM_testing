@@ -28,49 +28,47 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <body <?php body_class(); ?>>
 
-<div class="hfeed site" id="page">1.00_180410
+<div class="hfeed site" id="page">180412_1.00
 
 	<!-- ******************* The Navbar Area ******************* -->
 <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
-		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
+	<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
 		<!--nav class="navbar navbar-expand-md navbar-dark bg-dark"-->
 
-		<?php if ( 'container' == $container ) : ?>
-			<div class="container small-menu"><?php
-wp_nav_menu( array( 
-    'theme_location' => 'my-custom-menu', 
-    'container_class' => 'custom-menu-class' ) ); 
-?>
-	</div>
-	<div class="row white-menu">
-		<div class="logo-brand">
-			<?php endif; ?>
+	<?php if ( 'container' == $container ) : ?>
+		<div class="small-menu">
+				<?php wp_nav_menu( array('theme_location' => 'my-custom-menu', 'container_class' => 'container custom-menu-class' ) ); ?>
+		</div>
+		<div class="container">
+			<div class="row white-menu">
+				<div class="logo-brand col-md-3">
+					<?php endif; ?>
 
-			<!-- Your site title as branding in the menu -->
-			<?php if ( ! has_custom_logo() ) { ?>
+					<!-- Your site title as branding in the menu -->
+					<?php if ( ! has_custom_logo() ) { ?>
 
-				<?php if ( is_front_page() && is_home() ) : ?>
+						<?php if ( is_front_page() && is_home() ) : ?>
 
-					<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+							
+						<?php else : ?>
+
+							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+						
+						<?php endif; ?>
+						
 					
-				<?php else : ?>
-
-					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-				
-				<?php endif; ?>
-				
-			
-			<?php } else {
-				the_custom_logo();
-			} ?><!-- end custom logo start MRB-->
-		</div>	
-		<div class="bloginfo"><h3><?php bloginfo( 'name' ); ?></h3><p><?php bloginfo( 'description' ); ?>
-		</div>		
-	</div>
+					<?php } else {
+						the_custom_logo();	} ?><!-- end custom logo start MRB-->
+				</div><!--logo brand-->		
+				<div class="bloginfo col-md-9"><h3><?php bloginfo( 'name' ); ?></h3><p><?php bloginfo( 'description' ); ?>
+				</div><!--blog info-->				
+			</div><!--row white-menu-->	
+		</div><!--container-->	
 	<nav class="navbar navbar-expand-md navbar-dark"><!-- end MRB-->			
-
+		<div class="container">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -87,10 +85,10 @@ wp_nav_menu( array(
 						'walker'          => new understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-			<?php if ( 'container' == $container ) : ?>
+				<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
 			<?php endif; ?>
-
-		</nav><!-- .site-navigation -->
+		</div>
+	</nav><!-- .site-navigation -->
 
 	</div><!-- .wrapper-navbar end -->
