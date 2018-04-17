@@ -94,7 +94,15 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
             'after_title'   => '</h3>',
         ) );
 
-
+        register_sidebar( array(
+            'name'          => __( 'workshop Sidebar', 'understrap' ),
+            'id'            => 'workshop',
+            'description'   => 'right sidebar for workshop widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title Workshop lisitng">',
+            'after_title'   => '</h3>',
+        ) );
     }
 } // endif function_exists( 'understrap_widgets_init' ).
 add_action( 'widgets_init', 'understrap_widgets_init' );
@@ -110,3 +118,107 @@ function wpdocs_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
+function cptui_register_my_cpts() {
+
+    /**
+     * Post Type: History Skills Workshop.
+     */
+
+    $labels = array(
+        "name" => __( "History Skills Workshop", "understrap-child" ),
+        "singular_name" => __( "History Skills Workshops", "understrap-child" ),
+        "all_items" => __( "HS_workshops", "understrap-child" ),
+        "add_new" => __( "Add HS_workshops", "understrap-child" ),
+        "add_new_item" => __( "Add New HSWorkshop", "understrap-child" ),
+        "edit_item" => __( "Edit New HSWorkshop", "understrap-child" ),
+        "new_item" => __( "HSWorkshop", "understrap-child" ),
+        "view_item" => __( "View HSWorkshop", "understrap-child" ),
+        "view_items" => __( "View HSWorkshops", "understrap-child" ),
+        "search_items" => __( "History Skills Workshop", "understrap-child" ),
+        "featured_image" => __( "Featured Image", "understrap-child" ),
+        "set_featured_image" => __( "Set Featured Image", "understrap-child" ),
+        "remove_featured_image" => __( "Remove Featured Image", "understrap-child" ),
+        "use_featured_image" => __( "Remove Featured Image", "understrap-child" ),
+        "insert_into_item" => __( "Insert into Page", "understrap-child" ),
+        "items_list" => __( "History Skills Workshops", "understrap-child" ),
+        "attributes" => __( "HSWorkshops", "understrap-child" ),
+    );
+
+    $args = array(
+        "label" => __( "History Skills Workshop", "understrap-child" ),
+        "labels" => $labels,
+        "description" => "Collect Date, Time, Location, Title, Speakers, Discriptions for History Skills  Workshops",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array( "slug" => "hs_workshop", "with_front" => true ),
+        "query_var" => true,
+        "supports" => array( "title", "editor", "thumbnail", "excerpt", "custom-fields", "revisions", "post-formats", "Date", " Location", " Speaker", " Description" ),
+        "taxonomies" => array( "category", "post_tag", "conference_topics" ),
+    );
+
+    register_post_type( "hs_workshop", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts' );
+
+
+function cptui_register_my_cpts_hs_workshop() {
+
+    /**
+     * Post Type: History Skills Workshop.
+     */
+
+    $labels = array(
+        "name" => __( "History Skills Workshop", "understrap-child" ),
+        "singular_name" => __( "History Skills Workshops", "understrap-child" ),
+        "all_items" => __( "HS_workshops", "understrap-child" ),
+        "add_new" => __( "Add HS_workshops", "understrap-child" ),
+        "add_new_item" => __( "Add New HSWorkshop", "understrap-child" ),
+        "edit_item" => __( "Edit New HSWorkshop", "understrap-child" ),
+        "new_item" => __( "HSWorkshop", "understrap-child" ),
+        "view_item" => __( "View HSWorkshop", "understrap-child" ),
+        "view_items" => __( "View HSWorkshops", "understrap-child" ),
+        "search_items" => __( "History Skills Workshop", "understrap-child" ),
+        "featured_image" => __( "Featured Image", "understrap-child" ),
+        "set_featured_image" => __( "Set Featured Image", "understrap-child" ),
+        "remove_featured_image" => __( "Remove Featured Image", "understrap-child" ),
+        "use_featured_image" => __( "Remove Featured Image", "understrap-child" ),
+        "insert_into_item" => __( "Insert into Page", "understrap-child" ),
+        "items_list" => __( "History Skills Workshops", "understrap-child" ),
+        "attributes" => __( "HSWorkshops", "understrap-child" ),
+    );
+
+    $args = array(
+        "label" => __( "History Skills Workshop", "understrap-child" ),
+        "labels" => $labels,
+        "description" => "Collect Date, Time, Location, Title, Speakers, Discriptions for History Skills  Workshops",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "show_in_rest" => false,
+        "rest_base" => "",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array( "slug" => "hs_workshop", "with_front" => true ),
+        "query_var" => true,
+        "supports" => array( "title", "editor", "thumbnail", "excerpt", "custom-fields", "revisions", "post-formats", "Date", " Location", " Speaker", " Description" ),
+        "taxonomies" => array( "category", "post_tag", "conference_topics" ),
+    );
+
+    register_post_type( "hs_workshop", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_hs_workshop' );

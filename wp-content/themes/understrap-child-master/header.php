@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <body <?php body_class(); ?>>
 
-<div class="hfeed site" id="page">180412_1.00
+<div class="hfeed site" id="page">180417_2.00
 
 	<!-- ******************* The Navbar Area ******************* -->
 <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">

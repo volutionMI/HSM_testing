@@ -2,7 +2,7 @@
 .small-menu {
     max-width: 100%;
     font-size: .75rem;
-    background-color: #0033A0e6;
+    background-color: #0033A0;
     text-align: right;
     height: 40px;
     padding-top: 7px;
@@ -122,25 +122,13 @@ ul#main-menu li#menu-item-406 {
 ul#menu-main li.menu-item-273 {
     display: none;
 }
-#nav_menu-5 ul#menu-main li.menu-item-403 {
-    color: #642F6C;
-}
-#nav_menu-5 ul#menu-main li.menu-item-404 {
-    color: #CB6015;
-}
-#nav_menu-5 ul#menu-main li.menu-item-405 {
-    color: #9D2235;
-}
 
-#nav_menu-5 ul#menu-main li.menu-item-406 {
-    color: #4F868E;
-}
 
 #nav_menu-5 ul#menu-main li a {
     text-decoration: none;
 }
 
-#nav_menu-5 ul#menu-main li.menu-item-209 {
+#nav_menu-5 ul#menu-main li.menu-item-209, ul#menu-main li.menu-item-402 {
     display: none;
 }
 
@@ -148,7 +136,7 @@ ul#menu-main li.menu-item-273 {
 #nav_menu-5 ul ul {
     list-style-type: disc;
     list-style-position: outside;
-    margin-left: -1rem;
+    margin-left: -1.2rem;
     color: #ffffff;
 }
 
@@ -173,19 +161,6 @@ div.copyright p {
     padding-top: 12px;
 }
 
-@include media-breakpoint-up(xs) { 
- body {
-        background: url(http://hsm.volution1.com/wp-content/uploads/2018/02/1755_Bellin_Map_of_the_Great_Lakes_-_Geographicus_-_GreatLakes-bellin-1755.jpg); 
-    }
-.text-flow-columns {   
-   -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-    -webkit-column-rule: 1px outset #fff; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px outset #fff; /* Firefox */
-    column-rule: 1px outset #fff;
-}
-    }
+
+
+
